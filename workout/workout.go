@@ -10,4 +10,5 @@ type Workout interface {
 	CalloriesBurned() float64
 	RecordStats()
 	GetType() string
+	GetDuration() time.Duration
 }
