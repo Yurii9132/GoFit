@@ -1,11 +1,12 @@
-package main
+package workout
 
 import (
 	"time"
 )
 
+// Workout interface
 type Workout interface {
-	Duration() time.Duration
+	WorkoutDuration() time.Duration
 	CalloriesBurned() float64
 	RecordStats()
 	GetType() string
